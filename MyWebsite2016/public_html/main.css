@@ -5,7 +5,8 @@ and open the template in the editor.
 */
 /* 
     Created on : Jun 24, 2016, 12:42:34 PM
-    Author     : hcps-shehzadst
+    Author     : Tahir Shehzad
+    CSS for Main webpage
 */
 
 body{
@@ -23,11 +24,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #262626;
     position: fixed;
     top: 0px;
     width: 100%;
-  
 }
 
 li {
@@ -35,7 +35,6 @@ li {
     font-family: Arial, sans-serif;
     font-size: 18px;
     border-bottom: 1px solid white;
-
 }
 
 li:last-child {
@@ -64,10 +63,15 @@ main {
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 8%;
-    padding: 3%;
+    padding: 2%;
     background: url("textbg.png");
     border-radius: 7px;
-    font-family: Arial;
+    
+}
+
+#logo{
+    display: block;
+    margin: 0 auto;
 }
 
 #second {
@@ -78,17 +82,21 @@ main {
     background: url("textbg.png");
     border-radius: 7px;
     font-family: Arial;
-}
-
-#secpara{
-    font-size: 14px;
-    font-family: arial;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 17px;
 }
 
 #mypic{
     width: 520px;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 7px;
+    float: right;
+    margin-bottom: 17px;
+    margin-left: 35px;
+    border-style: solid;
+    border-color: #262626;
+    border-width: 2px;
 }
 
 #Bottom{
@@ -97,7 +105,7 @@ main {
 
 footer{
     margin-top: 5%;
-    background-color: black;
+    background-color: #262626;
     color: white;
     position: static;
     margin-bottom: 0px;
