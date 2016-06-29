@@ -99,6 +99,28 @@ main {
     border-width: 2px;
 }
 
+#social{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 5%;
+    padding: 3%;
+    background: url("textbg.png");
+    border-radius: 7px;
+    font-family: Arial;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 17px;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+#icon{
+    display: block;
+    margin: 0 auto;
+    
+}
+
 #Bottom{
     text-align: center;
 }
